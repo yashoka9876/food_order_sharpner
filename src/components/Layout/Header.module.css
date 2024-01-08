@@ -32,12 +32,12 @@
 
   .description{
     border: 1px solid red;
-    z-index: 15;
+    z-index: 0;
     background-color: #8a2b06;
     border-radius: 20px;
-    position:fixed;
-    top:15rem;
-    margin: 0 20rem;
+    margin: 0% 20%;
+    position: absolute;
+    top: 250px;
   }
   .description h1{
     text-align: center;
