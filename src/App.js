@@ -1,5 +1,5 @@
+import Cart from "./components/Cart/Cart";
 import Headers from "./components/Layout/Headers";
-import AvailableMeals from "./components/Meals/AvailableMeals";
 import Meals from "./components/Meals/Meals";
 
 
@@ -7,9 +7,11 @@ import Meals from "./components/Meals/Meals";
 function App() {
   return (
     <>
+      <Cart />
       <Headers />
-      <Meals />
-
+      <main>
+        <Meals />
+      </main>
     </>
   );
 }
